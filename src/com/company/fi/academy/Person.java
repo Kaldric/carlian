@@ -8,7 +8,13 @@ package com.company.fi.academy;
         int age;
         String name;
 
+        public Person(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
         public Person() {
+
         }
 
         public Person(String address, String city, String phoneNumber) {
@@ -53,14 +59,7 @@ package com.company.fi.academy;
 
 
 
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
 
-    public Person() {
-
-    }
 
     public void setName(String name) {
         this.name = name;
